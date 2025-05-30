@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNARO: Pitch Deck – Financiamento Sustentável para um Futuro Descentralizado</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            color: #333;
+        }
+        .pitch-deck-container {
+            width: 100%;
+            max-width: 1200px;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 40px 20px;
+            overflow: hidden;
+        }
+        .slide {
+            padding: 60px;
+            border-bottom: 1px solid #eee;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        .slide:last-child {
+            border-bottom: none;
+        }
+        .slide h1 {
+            color: #2c3e50;
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+        .slide h2 {
+            color: #3498db;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            display: inline-block;
+        }
+        .slide h3 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        .slide p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+        }
+        .slide ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1.2em;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+        .slide ul li {
+            background: #e9f7fe;
+            margin-bottom: 10px;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .slide ul li::before {
+            content: '✅'; /* Green checkmark */
+            margin-right: 15px;
+            font-size: 1.2em;
+        }
+        .slide.hero {
+            background-color: #3498db;
+            color: #fff;
+            padding: 80px;
+        }
+        .slide.hero h1 {
+            color: #fff;
+            font-size: 4em;
+        }
+        .slide.hero p {
+            color: #ecf0f1;
+            font-size: 1.5em;
+            max-width: 900px;
+        }
+        .slide.problem h2, .slide.solution h2 {
+            color: #e74c3c;
+            border-bottom-color: #e74c3c;
+        }
+        .slide.solution h2 {
+            color: #27ae60;
+            border-bottom-color: #27ae60;
+        }
+        .slide.team img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid #3498db;
+        }
+        .slide.team .member {
+            margin: 0 20px;
+        }
+        .slide.team .members-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .slide.ask h2 {
+            color: #f39c12;
+            border-bottom-color: #f39c12;
+        }
+        .slide.contact {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        .slide.contact p {
+            color: #ecf0f1;
+            font-size: 1.3em;
+        }
+        .slide.contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .slide.contact a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            margin-top: 40px;
+            font-size: 2em;
+            font-weight: bold;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="pitch-deck-container">
+
+        <section class="slide hero">
+            <h1>LUNARO</h1>
+            <p>Financiamento Sustentável para um Futuro Descentralizado</p>
+            <div class="logo">LUNARO</div>
+        </section>
+
+        <section class="slide problem">
+            <h2>O Problema</h2>
+            <p>O financiamento tradicional é **opaco, ineficiente** e frequentemente **ignora o impacto ambiental e social**.</p>
+            <p>O DeFi atual, embora transparente, carece de **ferramentas robustas de avaliação de risco** e de um **foco explícito em sustentabilidade**.</p>
+            <ul>
+                <li>Barreiras de acesso ao capital para projetos ESG.</li>
+                <li>Falta de transparência no impacto real dos investimentos "verdes".</li>
+                <li>Modelos de risco subdesenvolvidos em muitos protocolos DeFi.</li>
+            </ul>
+        </section>
+
+        <section class="slide solution">
+            <h2>A Solução: LUNARO</h2>
+            <p>LUNARO é a **plataforma DeFi que une o financiamento descentralizado com a sustentabilidade**, impulsionada por IA para avaliação de risco e impacto ESG.</p>
+            <ul>
+                <li>**Empréstimos e empréstimos sustentáveis:** Para indivíduos e projetos com impacto positivo.</li>
+                <li>**IA para risco e ESG:** Modelos preditivos para avaliar a credibilidade e o alinhamento com a sustentabilidade.</li>
+                <li>**Transparência Blockchain:** Todas as transações e métricas de impacto são verificáveis.</li>
+            </ul>
+        </section>
+
+        <section class="slide">
+            <h2>Como LUNARO Funciona</h2>
+            <p>Simples, Inteligente, Transparente:</p>
+            <ul>
+                <li><strong>Mutuários:</strong> Submetem projetos ESG, avaliados por IA. Recebem capital de forma eficiente.</li>
+                <li><strong>Credores:</strong> Fornecem liquidez para pools sustentáveis, ganham juros e recompensas LNR.</li>
+                <li><strong>IA no Core:</strong> Analisa dados on-chain/off-chain para risco de crédito e pontuação ESG.</li>
+                <li><strong>Contratos Inteligentes:</strong> Automatizam desembolsos, pagamentos e distribuição de recompensas.</li>
+            </ul>
+            <p><em>(Imagine um fluxo visual aqui: Mutuário -> IA/ESG Score -> Pool de Liquidez -> Credores)</em></p>
+        </section>
+
+        <section class="slide">
+            <h2>Oportunidade de Mercado</h2>
+            <p>Estamos na intersecção de dois mercados de trilhões de dólares em crescimento exponencial:</p>
+            <p><strong>DeFi:</strong> TVL (Total Value Locked) superior a $100 Bilhões e em ascensão.</p>
+            <p><strong>Investimento ESG:</strong> Projetado para atingir $50+ Trilhões globalmente nos próximos anos.</p>
+            <h3>Uma lacuna inexplorada, pronta para ser preenchida pela LUNARO.</h3>
+        </section>
+
+        <section class="slide">
+            <h2>Proposta de Valor Única</h2>
+            <ul>
+                <li>**AI-Driven ESG & Risk:** Análise de dados sofisticada para decisões financeiras mais inteligentes e responsáveis.</li>
+                <li>**Transparência Total:** Cada centavo e cada impacto ESG são rastreáveis na blockchain.</li>
+                <li>**Acesso Inclusivo:** Democratizando o financiamento sustentável globalmente, sem intermediários.</li>
+                <li>**Foco Genuíno em Impacto:** Incentivos e estrutura do protocolo desenhados para promover projetos ESG.</li>
+            </ul>
+        </section>
+
+        <section class="slide">
+            <h2>Modelo de Negócio</h2>
+            <p>LUNARO gera receita através de um modelo sustentável:</p>
+            <ul>
+                <li>**Taxas de Juros:** Margem sobre os empréstimos (diferença entre o que o mutuário paga e o que o credor recebe).</li>
+                <li>**Taxas de Protocolo:** Pequenas taxas cobradas em transações-chave para manutenção e desenvolvimento.</li>
+                <li>**Serviços Premium de IA (Futuro):** Potenciais relatórios detalhados ou APIs para parceiros institucionais.</li>
+            </ul>
+        </section>
+
+        <section class="slide">
+            <h2>Estratégia Go-to-Market</h2>
+            <ul>
+                <li>**Parcerias Estratégicas:** Colaboração com projetos ESG, ONGs, auditores de impacto e outras plataformas DeFi.</li>
+                <li>**Engajamento da Comunidade:** Construção de uma comunidade forte via Discord, Telegram e programas de recompensas.</li>
+                <li>**Marketing de Conteúdo & Educação:** Fomentando a compreensão sobre DeFi e finanças sustentáveis.</li>
+                <li>**Incentivos:** Programas de liquidez e recompensas para primeiros adotantes e projetos de alto impacto.</li>
+            </ul>
+        </section>
+
+        <section class="slide">
+            <h2>Tração & Marcos</h2>
+            <p>Já estamos construindo o futuro:</p>
+            <ul>
+                <li>**Q3 202X:** Lançamento da Testnet, funcionalidade MVP de empréstimo/empréstimo.</li>
+                <li>**Q4 202X:** Auditoria de segurança concluída, Lançamento Mainnet.</li>
+                <li>**Q1 202Y:** Implementação do DAO, primeiros 50 projetos ESG financiados.</li>
+                <li>**Q2 202Y:** 500 usuários ativos, TVL de $X milhões.</li>
+            </ul>
+        </section>
+
+        <section class="slide team">
+            <h2>A Equipe</h2>
+            <p>Um time multidisciplinar com paixão por finanças, tecnologia e sustentabilidade:</p>
+            <div class="members-grid">
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Membro da Equipe 1">
+                    <h3>[Nome 1]</h3>
+                    <p>CEO & Blockchain Lead</p>
+                    <p><small>10+ anos em blockchain e fintech.</small></p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Membro da Equipe 2">
+                    <h3>[Nome 2]</h3>
+                    <p>CTO & AI Architect</p>
+                    <p><small>Expert em IA e machine learning.</small></p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/100" alt="Membro da Equipe 3">
+                    <h3>[Nome 3]</h3>
+                    <p>Head de Estratégia ESG</p>
+                    <p><small>Experiência em finanças sustentáveis e impacto.</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <h2>Projeções Financeiras</h2>
+            <p>Crescimento exponencial e retornos sólidos:</p>
+            <ul>
+                <li>**Ano 1:** TVL de $X milhões, Receita de $Y milhões.</li>
+                <li>**Ano 3:** TVL de $A milhões, Receita de $B milhões.</li>
+                <li>**Ano 5:** TVL de $C milhões, Receita de $D milhões.</li>
+            </ul>
+            <p><em>(Detalhes completos e premissas no Whitepaper.)</em></p>
+        </section>
+
+        <section class="slide ask">
+            <h2>Pedido de Financiamento</h2>
+            <h3>Buscamos $X milhões</h3>
+            <p>Para acelerar nosso crescimento e expandir nosso impacto:</p>
+            <ul>
+                <li>**50% Desenvolvimento de Produto:** Refinar IA, novas funcionalidades, auditorias.</li>
+                <li>**30% Marketing & Aquisição:** Campanhas globais, parcerias.</li>
+                <li>**15% Operações & Equipe:** Expandir time, infraestrutura.</li>
+                <li>**5% Reserva Estratégica:** Contingência e futuras oportunidades.</li>
+            </ul>
+        </section>
+
+        <section class="slide hero">
+            <h1>Junte-se à Revolução LUNARO!</h1>
+            <p>Estamos construindo o futuro das finanças: transparente, inteligente e sustentável.</p>
+            <p>Seja parte da mudança.</p>
+        </section>
+
+        <section class="slide contact">
+            <h2>Obrigado!</h2>
+            <p>Dúvidas? Entre em contato:</p>
+            <p>Email: <a href="mailto:contato@lunaro.xyz">contato@lunaro.xyz</a></p>
+            <p>Website: <a href="https://www.lunaro.xyz" target="_blank">www.lunaro.xyz</a></p>
+            <p>Twitter: <a href="https://twitter.com/lunaro_xyz" target="_blank">@lunaro_xyz</a></p>
+        </section>
+
+    </div>
+</body>
+</html>
